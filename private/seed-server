@@ -1,0 +1,10 @@
+#!/usr/bin/env seed-node
+
+// used for testing seed server.  Just starts seed in the current package
+
+require.seed.register(__dirname, '..');
+var commands = require('seed:commands');
+
+// first two args are 'node' and path to this binary
+var args = Array.prototype.slice.call(process.argv, 2);
+commands.invokeSync(args.shift(), args);
