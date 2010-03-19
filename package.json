@@ -9,11 +9,8 @@
     "core_support": "0.1"
   },
   
-  "seed": {
-        
-    "commands": {
-      "server":  "seed-server:command"
-    }
+  "seed-commands": {
+    "server":  "seed-server:command"
   }
   
 }
