@@ -1,5 +1,23 @@
 Server Database Formats
 
+## setup
+
+seed-users :
+  anonymous user:
+	id: anonymous
+	name: Anonymous
+	password: null
+	groups: [guest]
+
+  ## also generate admin user w/ username, password, groups: ['admin']
+
+seed-tokens:
+  admin token:
+	id: uuid
+	username: [admin-username]
+	expires: 0
+	
+
 
 ## users
 
