@@ -1,4 +1,4 @@
-#!/usr/bin/env seed-node
+#!/usr/bin/env seed
 
 // used for testing seed server.  Just starts seed in the current package
 
